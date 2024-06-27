@@ -1,0 +1,81 @@
+:root {
+    --primary: #0A85C7;
+    --secondary: #33BDE9;
+    --neutralWhite: #F6FDFF;
+    --neutralBlack: #02273C;
+    --successPrimary: #3cc13b;
+    --warningPrimary: #febb14;
+    --alertPrimary: #f03737;
+    --pinkPrimary: #d72f77;
+    --purplePrimary: #6200ee;
+
+
+    --linkText: var(--primary);
+
+    --primaryBackButtonColor: var(--neutral200);
+    --primaryBackButtonTextColor: var(--neutral800);
+
+    --stepperActiveStepColor: var(--primary);
+    --stepperCompletedStepColor: var(--successPrimary);
+    --stepperInactiveStepColor: var(--neutral500);
+
+    --stepperSubheadingColor: var(--neutralBlack);
+
+    --breadcrumbInactive: var(--neutral600);
+    --breadcrumbActive: var(--primary);
+
+    --pageHeaderColor: var(--primary);
+
+    --selectorButtonInactive: var(--neutral200);
+    --selectorButtonTextInactive: var(--neutral800);
+    --selectorButtonActive: var(--azure200);
+    --selectorButtonTextActive: var(--blue800);
+
+    --progressBarActive: var(--azure200);
+    --progressBarInactive: var(--neutral200);
+
+    --highAlert: var(--alertPrimary);
+
+    --connectionCardBG: var(--neutralWhite);
+    --connectionCardBorder: var(--neutral500);
+    --connectionCardDisabled: var(--neutral200);
+    --connectionCardSelected: var(--azure50);
+    --connectionCardSelectedBorder: var(--primary);
+
+    --tabActive: var(--primary);
+
+    --navActiveBG: var(--azure50);
+
+    --instanceCard: var(--blue800);
+    --instanceCardHeader: var(--secondary);
+    --instanceCardProgressActive: var(--primary);
+    --instanceCardProgressInactive: var(--secondary);
+    --instanceCardTextColor: var(--neutralWhite);
+    --instanceCardDisabled: var(--neutral300);
+    --instanceCardDisabledHeader: var(--blue800);
+    --instanceCardDisabledProgressActive: var(--primary);
+    --instanceCardDisabledProgressInactive: var(--neutralWhite);
+
+    --modalColor: var(--neutral100);
+    --modalHeaderColor: var(--primary);
+    --modalTextColor: var(--neutralBlack);
+
+    --reviewCardBG: var(--neutral200);
+    --reviewCardHeader: var(--primary);
+    --reviewCardTextColor: var(--neutralBlack);
+
+    --uploadFileBG: var(--azure50);
+    --uploadFileHeader: var(--neutralBlack);
+    --uploadFileSubheader: var(--neutral800);
+
+    --runQueryButtonColor: var(--success600);
+    --runQueryButtonTextColor: var(--neutralWhite);
+
+    --chatGptBG: var(--neutralWhite);
+    --chatGptHeader: var(--primary);
+    --chatGptSubheading: var(--neutral600);
+    --chatGptChatBG: var(--neutral200);
+    --chatGptQueryBG: var(--neutralWhite);
+
+    --selectedQueryBG: var(--blue100);
+}

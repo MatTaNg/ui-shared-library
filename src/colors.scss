@@ -1,0 +1,113 @@
+/**
+ * Do not edit directly
+ * Created on Wed, 01 Nov 2023 20:46:13 GMT
+ */
+
+ :root {
+    /* BLUE */
+    --blue50: #e7f3f9; /* Blue 50 */
+    --blue75: #D5EBF7; /* Blue 75 */
+    --blue100: #b3d9ee; /* Blue 100 */
+    --blue200: #8ec7e5; /* Blue 200 */
+    --blue300: #5badd9; /* Blue 300 */
+    --blue400: #3b9dd2; /* Blue 400 */
+    --blue500: #0a85c7; /* Blue 500 */
+    --blue600: #0979b5; /* Blue 600 */
+    --blue700: #075e8d; /* Blue 700 */
+    --blue800: #06496d; /* Blue 800 */
+    --blue900: #043854; /* Blue 900 */
+
+    /* AZURE */
+    --azure50: #ebf8fd; /* Azure 50 */
+    --azure75: #DBF4FC; /* Azure 75 */
+    --azure100: #c0ebf8; /* Azure 100 */
+    --azure200: #a1e1f5; /* Azure 200 */
+    --azure300: #76d3f0; /* Azure 300 */
+    --azure400: #5ccaed; /* Azure 400 */
+    --azure500: #33bde9; /* Azure 500 */
+    --azure600: #2eacd4; /* Azure 600 */
+    --azure700: #2486a5; /* Azure 700 */
+    --azure800: #1c6880; /* Azure 800 */
+    --azure900: #154f62; /* Azure 900 */
+
+    /* NEUTRAL */
+    --neutral50: #f6fdff; /* Neutral Grey 50 */
+    --neutral75: #F1F8FB; /* Neutral Grey 75 */
+    --neutral100: #edf4f8; /* Nuetral Grey 100 */
+    --neutral200: #dfe9ef; /* Neutral Grey 200 */
+    --neutral300: #cbd9e1; /* Neutral Grey 300 */
+    --neutral400: #b6c7d1; /* Neutral Grey 400 */
+    --neutral500: #90a8b5; /* Neutral Grey 500 */
+    --neutral600: #75909f; /* Neutral Grey 600 */
+    --neutral700: #577687; /* Neutral Grey 700 */
+    --neutral800: #355263; /* Neutral Grey 800 */
+    --neutral900: #02273c; /* Neutral Grey 900 */
+
+    /* WARNING */
+    --warning50: #fff8e8; /* Warning Yellow 50 */
+    --warning75: #FBF4DB; /* Warning Yellow 75 */
+    --warning100: #ffeab6; /* Warning Yellow 100 */
+    --warning200: #ffe093; /* Warning Yellow 200 */
+    --warning300: #fed162; /* Warning Yellow 300 */
+    --warning400: #fec943; /* Warning Yellow 400 */
+    --warning500: #febb14; /* Warning Yellow 500 */
+    --warning600: #e7aa12; /* Warning Yellow 600 */
+    --warning700: #b4850e; /* Warning Yellow 700 */
+    --warning800: #8c670b; /* Warning Yellow 800 */
+    --warning900: #6b4f08; /* Warning Yellow 900 */
+
+    /* ALERT */
+    --alert50: #feebeb; /* Alert Red 50 */
+    --alert75: #F8DFE0; /* Alert Red 75 */
+    --alert100: #fac1c1; /* Alert Red 100 */
+    --alert200: #f8a3a3; /* Alert Red 200 */
+    --alert300: #f57979; /* Alert Red 300 */
+    --alert400: #f35f5f; /* Alert Red 400 */
+    --alert500: #f03737; /* Alert Red 500 */
+    --alert600: #da3232; /* Alert Red 600 */
+    --alert700: #aa2727; /* Alert Red 700 */
+    --alert800: #841e1e; /* Alert Red 800 */
+    --alert900: #651717; /* Alert Red 900 */
+
+    /* SUCCESS */
+    --success50: #ecf9eb; /* Success Green 50 */
+    --success75: #DDF5E0; /* Success Green 75 */
+    --success100: #c3ecc2; /* Success Green 100 */
+    --success200: #a5e2a5; /* Success Green 200 */
+    --success300: #7cd57c; /* Success Green 300 */
+    --success400: #63cd62; /* Success Green 400 */
+    --success500: #3cc13b; /* Success Green 500 */
+    --success600: #37b036; /* Success Green 600 */
+    --success700: #2b892a; /* Success Green 700 */
+    --success800: #216a20; /* Success Green 800 */
+    --success900: #195119; /* Success Green 900 */
+
+    /* TYPEFACE */
+    --typefaceBrand: Roboto;
+    --typefaceWeightLight: 300; /* Font Weight, Light */
+    --typefaceWeightRegular: 400; /* Font Weight, regular */
+    --typefaceWeightMedium: 500; /* Font Weight, Medium */
+    --typefaceWeightSemi: 600; /* Font Weight, Semi Bold */
+    --typefaceWeightBold: 700; /* Font Weight, Bold */
+    --typefaceWeightExtra: 800; /* Font Weight, Extra Bold */
+    --typefaceSizeDisplayLg: 96px; /* Display Large, 96 */
+    --typefaceSizeDisplayMd: 60px; /* Display Medium, 60 */
+    --typefaceSizeDisplaySm: 48px; /* Display Small, 48 */
+    --typefaceSizeTitleLg: 34px; /* Title Large, 34 */
+    --typefaceSizeTitleMd: 24px; /* Title Medium, 24 */
+    --typefaceSizeTitleSm: 20px; /* Title Small, 20 */
+    --typefaceSizeTypeBase: 16px; /* Type Base, 16 */
+    --typefaceSizeTypeSm: 14px; /* Type Small, 14 */
+    --typefaceSizeTypeXs: 12px; /* Type Extra Small, 12 */
+    --typefaceSizeTypeXxs: 10px; /* Type Extra Extra Small, 10 */
+    --typefaceCaseDefault: none; /* Case, Default */
+    --typefaceCaseCap: capitalize; /* Case, All Capital */
+    --typefaceCaseLower: lowercase; /* Case, All Lowercase */
+    --typefaceLineheightXxl: 112; /* Lineheight, Extra Extra Large */
+    --typefaceLineheightXl: 72; /* Lineheight, Extra Large */
+    --typefaceLineheightLg: 56; /* Lineheight, Large */
+    --typefaceLineheightMd: 36; /* Lineheight, Medium */
+    --typefaceLineheightSm: 24; /* Lineheight, Small 24 */
+    --typefaceLineheightXs: 20; /* Lineheight, Extra Small 20 */
+    --typefaceLineheightXxs: 16; /* Lineheight, Extra Extra Small 16 */
+  }
